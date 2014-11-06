@@ -1,3 +1,7 @@
+body {
+	background-color: #222829;	
+}
+
 .nav a {
 	color: #5a5a5a;
 	font-size: 11px;
@@ -12,7 +16,7 @@
 
 .jumbotron {
 	background-image:
-		url('http://img3.goodfon.su/original/6392x2615/5/ca/middle-earth-shadow-of-mordor-7061.jpg');
+		url('../img/Cover_ShadowOfMordor.jpg');
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -49,16 +53,16 @@
 	color: #00b0ff;
 }
 
-.neighborhood-guides {
+.content {
 	background-color: #efefef;
 }
 
-.neighborhood-guides h2 {
+.content h2 {
 	color: #393C3D;
 	font-size: 24px;
 }
 
-.neighborhood-guides p {
+.content p {
 	font-size: 15px;
 	margin-bottom: 13px;
 }
