@@ -39,20 +39,6 @@ body {
 	color: #fff;
 }
 
-.learn-more {
-	background-color: #f7f7f7;
-}
-
-.learn-more h3 {
-	font-family: 'Shift', sans-serif;
-	font-size: 18px;
-	font-weight: bold;
-}
-
-.learn-more a {
-	color: #00b0ff;
-}
-
 .content {
 	background-color: #efefef;
 }
@@ -65,4 +51,18 @@ body {
 .content p {
 	font-size: 15px;
 	margin-bottom: 13px;
+}
+
+.content-bottom {
+	background-color: #f7f7f7;
+}
+
+.content-bottom h3 {
+	font-family: 'Shift', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.content-bottom a {
+	color: #00b0ff;
 }
