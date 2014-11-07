@@ -39,6 +39,15 @@
 			<h2>What`s best?</h2>
 			<p>Select your favourite game!</p>
 
+			<!-- Spoiler Button start -->
+			<input name="button" type="button"
+				onClick="if (this.parentNode.getElementsByTagName('div')[0].style.display != 'none') { this.parentNode.getElementsByTagName('div')[0].style.display = 'none'; this.value = 'Spoiler'; } else { this.parentNode.getElementsByTagName('div')[0].style.display = 'block'; this.value = 'Spoiler';}"
+				value="Spoiler">
+			<div class="spoiler" style="display: none;">
+				<img src="img/GooglyMeercat.gif">
+			</div>
+			<!-- Spoiler Button end -->
+
 			<div class="row">
 				<div class="col-md-4">
 					<div class="thumbnail">
@@ -95,7 +104,6 @@
 								<p>Games that will be published soon</p>
 								<p>
 									<a href="#">Upcoming List</a>
-								</p>
 							</div>
 						</div>
 					</div>
@@ -116,6 +124,7 @@
 				</div>
 				<a href="http://www.codecademy.com/mesax">Codecademy Profile</a> <br />
 				<font color=333333>built by Jonathan Bunke</font>
+				<div class="pre-spoiler"></div>
 			</div>
 		</div>
 	</div>
