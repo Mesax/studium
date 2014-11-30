@@ -124,3 +124,7 @@ text-decoration: none;
 #suchformular h1{
 	text-align: left;
 }
+
+#suchlabel {
+	color: #9D9D9D;
+}
