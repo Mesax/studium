@@ -6,53 +6,6 @@ body {
 	background-color: #222829;	
 }
 
-.setActive {
-	border-color: #171A1C;
-	background-color: #171A1C;
-	color: white;
-}
-
-.navbar {
-	margin-top: 5px;
-}
-
-.navbar a {
-	color: #5a5a5a;
-	font-size: 11px;
-	font-weight: bold;
-	padding: 14px 10px;
-	text-transform: uppercase;
-}
-
-.navbar li {
-	display: inline;
-}
-
-.jumbotron {
-	background-image:
-		url('../img/Cover_ShadowOfMordor.jpg');
-	height: 500px;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.jumbotron .container {
-	position: relative;
-	top: 100px;
-}
-
-.jumbotron h1 {
-	color: #fff;
-	font-size: 48px;
-	font-family: 'Shift', sans-serif;
-	font-weight: bold;
-}
-
-.jumbotron p {
-	font-size: 20px;
-	color: #fff;
-}
-
 .content {
 	background-color: #efefef;
 }
@@ -81,6 +34,42 @@ body {
 	color: #00b0ff;
 }
 
+.impressum h1,
+.impressum h2,
+.impressum p{
+	color: #9D9D9D;
+}
+
+.index .modal-footer,
+.index .content-bottom{
+	background-color: #EFEFEF;
+}
+
+.jumbotron {
+	background-image:
+		url('../img/Cover_ShadowOfMordor.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 100px;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+}
+
+.jumbotron p {
+	font-size: 20px;
+	color: #fff;
+}
+
 li a:hover {
 	color: #74898C;
 	font-weight: bold;
@@ -93,6 +82,33 @@ font-weight: bold;
 text-decoration: none;
 }
 
-#BackToTop {
-	background-color: #F7F7F7;
+.modal-footer{
+	text-align: center;
+	border:none;
+}
+
+.navbar {
+	margin-top: 5px;
+}
+
+.navbar a {
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+
+.navbar li {
+	display: inline;
+}
+
+.setActive {
+	border-color: #171A1C;
+	background-color: #171A1C;
+	color: white;
+}
+
+#suchformular{
+	color: #9D9D9D;
 }

@@ -38,8 +38,9 @@
 			<!-- navigation -->
 			<div class="collapse navbar-collapse" id="navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li aria-label="Willkommen"><a href="https://jonathanbunke.cloudcontrolled.com">Startseite
-							<span class="sr-only">(current)</span>
+					<li aria-label="Willkommen"><a
+						href="https://jonathanbunke.cloudcontrolled.com">Startseite <span
+							class="sr-only">(current)</span>
 					</a></li>
 					<!--  add links as dropdown-menue -->
 					<li class="dropdown">
@@ -50,21 +51,58 @@
 							<li aria-label="my Codecademy profile"><a
 								href="http://www.codecademy.com/mesax">Mein Codecademy
 									Profil</a></li>
-									<li aria-label="my Codecademy profile"><a
-								href="https://github.com/dloell/bootstrap/pull/4">eingereichte Pull Requests</a></li>
-								<li aria-label="my Codecademy profile"><a
-								href="https://github.com/Mesax/studium/pull/2">erhaltene Pull Requests</a></li>
-								
+							<li aria-label="my Codecademy profile"><a
+								href="https://github.com/dloell/bootstrap/pull/4">eingereichte
+									Pull Requests</a></li>
+							<li aria-label="my Codecademy profile"><a
+								href="https://github.com/Mesax/studium/pull/2">erhaltene
+									Pull Requests</a></li>
+
 						</ul>
 					</li>
-					<li class="setActive" aria-label="Suchformular"><a href="suchformular.html">Suchformular</a></li>
+					<li class="setActive" aria-label="Suchformular"><a
+						href="suchformular.html">Suchformular</a></li>
 					<li aria-label="Impressum"><a href="impressum.html">Impressum</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+	<div class="container" id="suchformular">
+		<h1 style="text-align: center;">Wikipedia Suche</h1>
+	</div>
+
+	<section role="search">
+		<div class="container">
+			<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+				<fieldset style="text-align: center">
+					<label for="search" style="color: #9D9D9D">Suchbegriff:</label> <input class="wikisearch"
+						type="text" name="search" value="" />
+					<button class="btn btn_info" type="submit" name="go"
+						aria-label="Artikel">Artikelsuche</button>
+					<button class="btn btn_info" type="submit" name="fulltext"
+						aria-label="Volltextsuche">Volltextsuche</button>
+				</fieldset>
+			</form>
+		</div>
+	</section>
+
+	<br />
+	<div class="container" style="text-align: center">
+		<p>
+			<a
+				href="http://wave.webaim.org/report#/http://jonathanbunke.cloudcontrolled.com/suchformular.html"
+				title="Explanation of WCAG 2.0 Level Triple-A Conformance"> <img
+				height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA"
+				alt="Level Triple-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0">
+			</a>
+		</p>
+	</div>
+
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<!-- d.loell, 29.11.2014: added jquery-link for responsive navigation-->
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -73,5 +111,5 @@
 	<!-- d.loell, 29.11.2014: old jquery link comment->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<!--<script src="js/jquery.min.js"></script>-->
-	</body>
-	</html>
+</body>
+</html>
