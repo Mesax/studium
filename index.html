@@ -2,7 +2,15 @@
 <html>
 
 <head>
+<<<<<<< HEAD
 <!-- Author: Jonathan Bunke -->
+=======
+<!-- d.loell, 29.11.2014: added for responsive navigation-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THM IBS Hausübung</title>
+>>>>>>> 1d9ad1c37f26c5330a52154bad0c14aa3d0a72ab
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
@@ -11,21 +19,46 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
 
+
+
 </head>
 
 <body>
-	<div class="nav">
+	<!-- d.loell, 29.11.2014: added responsive navigation-->
+	<nav class="navbar navbar-inverse navbar-static-top " role="banner">
 		<div class="container">
-			<ul class="pull-left">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Forum</a></li>
-			</ul>
-			<ul class="pull-right">
-				<li><a href="#">Sign Up</a></li>
-				<li><a href="#">Log In</a></li>
-			</ul>
+			<!--  side's brand and toggle to get better grouped for mobile display-->
+			<div class="navbar-header">
+				<!-- brand -->
+				<a href="#" class="navbar-brand" value="IBS Hausübung" aria-label="IBS Hausübung">IBS Hausübung</a>
+				<!-- button for mobile navigation -->
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navHeaderCollapse" value="Navigation" aria-label="Navigation">
+					<!-- add bootstrap navbar icon -->
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+				</button>		
+			</div>
+					
+			<!-- navigation -->
+			<div class="collapse navbar-collapse" id="navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active" aria-label="Willkommen"><a href="#">Willkommen <span class="sr-only">(current)</span></a></li>
+					<!--  add links as dropdown-meue -->
+					<li class="dropdown">
+						<!-- add dropdown name and arrow--> 
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >Codecademy <em class="caret"></em></a>
+						<ul class="dropdown-menu" role="menu">
+							<li aria-label="Mein Codecademy Profile"><a href="http://www.codecademy.com/mesax">Mein Codecademy Profile</a></li>
+						</ul>
+					</li>				
+					<li aria-label="Suchformular"><a href="#" >Suchformular</a></li>
+					<li aria-label="Impressung"><a href="impressum.html" >Impressung</a></li>
+				</ul>
+			</div>
 		</div>
-	</div>
+	</nav>
 
 	<div class="jumbotron">
 		<div class="container">
@@ -115,15 +148,19 @@
 					</h3>
 				</div>
 				<a href="http://www.codecademy.com/mesax" id="codecademy">Codecademy Profile</a> <br />
-				<font color=333333>built by Jonathan Bunke</font>
+				<font color="#333333">built by Jonathan Bunke</font>
 				<div class="pre-spoiler"></div>
 			</div>
 		</div>
 	</div>
 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!-- d.loell, 29.11.2014: added jquery-link for responsive navigation-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="js/bootstrap.min.js"></script>
+	<!-- d.loell, 29.11.2014: old jquery link comment->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="js/jquery.min.js"></script>
+	<!--<script src="js/jquery.min.js"></script>-->
 </body>
 </html>
