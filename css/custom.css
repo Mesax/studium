@@ -86,13 +86,3 @@ color: #54B2FF;
 font-weight: bold;
 text-decoration: none;
 }
-
-#codecademy:hover {
-	color: #74898C;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-#codecademy:visited {
-    color:#EE9A00;
-}
