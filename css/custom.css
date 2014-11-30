@@ -6,6 +6,12 @@ body {
 	background-color: #222829;	
 }
 
+.setActive {
+	border-color: #171A1C;
+	background-color: #171A1C;
+	color: white;
+}
+
 .navbar {
 	margin-top: 5px;
 }
@@ -85,4 +91,8 @@ li a:hover {
 color: #54B2FF;
 font-weight: bold;
 text-decoration: none;
+}
+
+#BackToTop {
+	background-color: #F7F7F7;
 }

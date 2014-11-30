@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THM IBS Hausübung</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<!-- Optional theme -->
+<link rel="stylesheet" type="text/css"
+	href="css/bootstrap-theme.min.css" />
+<!-- Custom CSS -->
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+</head>
+
+<body>
+	<!-- d.loell, 29.11.2014: added responsive navigation-->
+	<nav class="navbar navbar-inverse navbar-static-top " role="banner">
+		<div class="container">
+			<!--  side's brand and toggle to get better grouped for mobile display-->
+			<div class="navbar-header">
+				<!-- brand -->
+				<a class="navbar-brand">Suchformular</a>
+				<!-- button for mobile navigation -->
+				<button class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="#navHeaderCollapse" value="Navigation"
+					aria-label="Navigation">
+					<!-- add bootstrap navbar icon -->
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- navigation -->
+			<div class="collapse navbar-collapse" id="navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li aria-label="Willkommen"><a href="index.html">Startseite
+							<span class="sr-only">(current)</span>
+					</a></li>
+					<!--  add links as dropdown-menue -->
+					<li class="dropdown">
+						<!-- add dropdown name and arrow--> <a href="#"
+						class="dropdown-toggle" data-toggle="dropdown" role="button"
+						aria-expanded="false">Links <em class="caret"></em></a>
+						<ul class="dropdown-menu" role="menu">
+							<li aria-label="my Codecademy profile"><a
+								href="http://www.codecademy.com/mesax">Mein Codecademy
+									Profil</a></li>
+									<li aria-label="my Codecademy profile"><a
+								href="https://github.com/dloell/bootstrap/pull/4">eingereichte Pull Requests</a></li>
+								<li aria-label="my Codecademy profile"><a
+								href="https://github.com/Mesax/studium/pull/2">erhaltene Pull Requests</a></li>
+								
+						</ul>
+					</li>
+					<li class="setActive" aria-label="Suchformular"><a href="suchformular.html">Suchformular</a></li>
+					<li aria-label="Impressum"><a href="impressum.html">Impressum</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!-- d.loell, 29.11.2014: added jquery-link for responsive navigation-->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- d.loell, 29.11.2014: old jquery link comment->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!--<script src="js/jquery.min.js"></script>-->
+	</body>
+	</html>

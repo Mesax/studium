@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 <!-- Author: Jonathan Bunke -->
 <!-- d.loell, 29.11.2014: added for responsive navigation-->
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>THM IBS Hausübung</title>
@@ -28,8 +28,7 @@
 			<!--  side's brand and toggle to get better grouped for mobile display-->
 			<div class="navbar-header">
 				<!-- brand -->
-				<a href="#" class="navbar-brand" value="IBS Hausübung"
-					aria-label="IBS Hausübung">IBS Hausübung</a>
+				<a class="navbar-brand" aria-label="IBS Hausübung">IBS Hausübung</a>
 				<!-- button for mobile navigation -->
 				<button class="navbar-toggle collapsed" data-toggle="collapse"
 					data-target="#navHeaderCollapse" value="Navigation"
@@ -44,19 +43,26 @@
 			<!-- navigation -->
 			<div class="collapse navbar-collapse" id="navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active" aria-label="Willkommen"><a href="#">Willkommen
+					<li aria-label="Willkommen"><a>Willkommen
 							<span class="sr-only">(current)</span>
 					</a></li>
-					<!--  add links as dropdown-meue -->
+					<!--  add links as dropdown-menue -->
 					<li class="dropdown">
-						<!-- add dropdown name and arrow--> <a href="#"
+						<!-- add dropdown name and arrow--> <a href=""
 						class="dropdown-toggle" data-toggle="dropdown" role="button"
-						aria-expanded="false">Codecademy <em class="caret"></em></a>
+						aria-expanded="false">Links <em class="caret"></em></a>
 						<ul class="dropdown-menu" role="menu">
 							<li aria-label="my Codecademy profile"><a
-								href="http://www.codecademy.com/mesax">my Codecademy profile</a></li>
+								href="http://www.codecademy.com/mesax">Mein Codecademy
+									Profil</a></li>
+									<li aria-label="my Codecademy profile"><a
+								href="https://github.com/dloell/bootstrap/pull/4">eingereichte Pull Requests</a></li>
+								<li aria-label="my Codecademy profile"><a
+								href="https://github.com/Mesax/studium/pull/2">erhaltene Pull Requests</a></li>
+								
 						</ul>
 					</li>
+					<li aria-label="Suchformular"><a href="suchformular.html">Suchformular</a></li>
 					<li aria-label="Impressum"><a href="impressum.html">Impressum</a></li>
 				</ul>
 			</div>
@@ -146,21 +152,16 @@
 		</div>
 	</div>
 
-	<br style="margin-bottom: 0px;" />
-	<div class="modal-footer">
-		<div class="row">
+		<div class="row" id="BackToTop">
 			<div class="col-md-12">
 				<div class="col-md-4 col-md-offset-4">
 					<h3 style="text-align: center;">
-						<a class="btn btn-info btn-lg" href="#"> <i
+						<a class="btn btn-info" href="#"> <i
 							class="glyphicon glyphicon-chevron-up"></i></a>
 					</h3>
 				</div>
-				<br /> <font color="#333333">built by Jonathan Bunke</font>
-				<div class="pre-spoiler"></div>
 			</div>
 		</div>
-	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<!-- d.loell, 29.11.2014: added jquery-link for responsive navigation-->
