@@ -51,7 +51,7 @@ fieldset {
 
 .jumbotron {
 	background-image:
-		url('../img/Cover_ShadowOfMordor.jpg');
+		url('http://images.alphacoders.com/480/480282.jpg');
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
